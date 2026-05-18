@@ -1,0 +1,3 @@
+=== SALIDA DE DOCKER PS -A ===
+
+=== LOGS DEL CONTENEDOR ===

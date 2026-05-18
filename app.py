@@ -9,7 +9,7 @@ WEATHER_KEY = os.getenv("OPENWEATHER_API_KEY")
 TSDB_KEY = os.getenv("TSDB_API_KEY") 
 
 def consultar_logistica_thesportsdb():
-    equipo_user = input("Ingresa tu equipo (ej: Sacramento Kings, Arsenal): ").strip()
+    equipo_user = os.getenv("EQUIPO_FAVORITO", "Arsenal").strip()
 
     # --- ① ZONA AZUL: Construcción de la solicitud ---
     # Inyectamos la variable de entorno en lugar del '123' hardcodeado
