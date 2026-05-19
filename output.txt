@@ -1,3 +1,15 @@
 === SALIDA DE DOCKER PS -A ===
+CONTAINER ID   IMAGE                     COMMAND           CREATED         STATUS                              PORTS     NAMES
+f1a1b28183cd   logistica-deportiva-app   "python app.py"   3 seconds ago   Exited (0) Less than a second ago             samplerunning
 
 === LOGS DEL CONTENEDOR ===
+
+==============================
+🏟️  LOGÍSTICA DE ESTADIO
+Equipo  : Arsenal (English Premier League)
+Estadio : Emirates Stadium
+Ciudad  : Holloway, London, England
+Clima   : 16.32°C, nubes
+==============================
+💡 Sugerencia: Clima agradable para disfrutar el partido.
+

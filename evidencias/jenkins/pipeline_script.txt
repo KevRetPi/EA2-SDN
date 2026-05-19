@@ -1,0 +1,11 @@
+node {
+    stage ('Preparation') {
+        catchError (buildResult: 'SUCCESS') {
+            bat '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe" stop samplerunning'
+            bat '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe" rm samplerunning'
+        }
+    }
+    stage ('Build') {
+        build 'BuildAppJob'
+    }
+}
